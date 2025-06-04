@@ -1,0 +1,46 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: #ffe6f0;
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #e60073;
+  width: 100vw;
+}
+input,
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #cc0066;
+  margin-bottom: 20px;
+}
+.cupid {
+  height: 50px;
+  width: auto;
+}
+
+.girl {
+  transform: rotateY(180deg);
+}
+.calculator {
+    border: 2px ridge red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: auto;
+}
+section {
+  justify-content: center;
+  align-items: center;
+}
